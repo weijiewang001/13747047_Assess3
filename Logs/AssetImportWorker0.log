@@ -106,6 +106,7 @@ Received Import Request.
 Start importing Assets/Audio Clips/CollidesWall.wav using Guid(b74c10cd3afef43a69ebe10d96fafa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002c9ad62453741c1d3c6157dce497c2') in 0.540901 seconds
   Import took 0.546001 seconds .
 
+<<<<<<< HEAD
 ========================================================================
 Received Import Request.
   Time since last request: 0.000208 seconds.
@@ -482,3 +483,5 @@ System memory in use after: 173.0 MB.
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2310.
 Total: 3.131934 ms (FindLiveObjects: 0.624681 ms CreateObjectMapping: 0.124038 ms MarkObjects: 2.085166 ms  DeleteObjects: 0.294956 ms)
 
+=======
+>>>>>>> parent of afb1ca5 (Basic)
