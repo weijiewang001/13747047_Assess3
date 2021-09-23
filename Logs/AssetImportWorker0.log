@@ -12,26 +12,26 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64759
+54029
 Successfully changed project path to: /Users/wangweijie/Desktop/13747047_Assess3
 /Users/wangweijie/Desktop/13747047_Assess3
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.4f1 (becced5a802b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/wangweijie/Desktop/13747047_Assess3/Assets
 GfxDevice: creating device client; threaded=0
-2021-09-23 12:45:34.817 Unity[62350:7117084] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-09-23 12:45:34.817 Unity[62350:7117084] Metal devices available: 1
-2021-09-23 12:45:34.817 Unity[62350:7117084] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-09-23 12:45:34.819 Unity[62350:7117084] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-09-23 22:46:14.516 Unity[82110:7477429] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-09-23 22:46:14.516 Unity[82110:7477429] Metal devices available: 1
+2021-09-23 22:46:14.516 Unity[82110:7477429] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-09-23 22:46:14.517 Unity[82110:7477429] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56350
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56110
 Begin MonoManager ReloadAssembly
 Error scanning for extension ivy.xml files: System.UnauthorizedAccessException: Access to the path '/Applications/Unity/PlaybackEngines/WebGLSupport/BuildTools/Emscripten_Mac/node' is denied.
   at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x00129] in <9577ac7a62ef43179789031239ba8798>:0 
@@ -46,439 +46,415 @@ Error scanning for extension ivy.xml files: System.UnauthorizedAccessException: 
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000607 seconds.
+Registered in 0.000614 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 46.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.083 seconds
+- Completed reload, in  1.993 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000617 seconds.
+Registered in 0.000532 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 38.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.609 seconds
+- Completed reload, in  1.154 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1797 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.2 MB.
-System memory in use after: 142.2 MB.
+Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.5 MB.
+System memory in use after: 142.5 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2238.
-Total: 2.697595 ms (FindLiveObjects: 0.287800 ms CreateObjectMapping: 0.153068 ms MarkObjects: 2.081189 ms  DeleteObjects: 0.174191 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Sprites/Pacman.png
-  artifactKey: Guid(7942b922b3cb94946ab05a9423903a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Pacman.png using Guid(7942b922b3cb94946ab05a9423903a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19442aa80603e7838cece757b4a9a160') in 0.498316 seconds
-  Import took 0.503037 seconds .
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2245.
+Total: 2.988816 ms (FindLiveObjects: 0.367485 ms CreateObjectMapping: 0.173551 ms MarkObjects: 2.320022 ms  DeleteObjects: 0.126489 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 100.126301 seconds.
-  path: Assets/Audio Clips
-  artifactKey: Guid(a049e00adcf07493d8696242693ba101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio Clips using Guid(a049e00adcf07493d8696242693ba101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ad01563314f7483149f0269f9f4f30') in 0.005786 seconds
-  Import took 0.026419 seconds .
+  path: Assets/Sprites/Walls/tilemap32x32.png
+  artifactKey: Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32.png using Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ecb446394b8c8975eb673836167d9c') in 0.449751 seconds
+  Import took 0.453465 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.468343 seconds.
-  path: Assets/Audio Clips/CollidesWall.wav
-  artifactKey: Guid(b74c10cd3afef43a69ebe10d96fafa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio Clips/CollidesWall.wav using Guid(b74c10cd3afef43a69ebe10d96fafa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002c9ad62453741c1d3c6157dce497c2') in 0.540901 seconds
-  Import took 0.546001 seconds .
+  Time since last request: 73.015581 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32.png
+  artifactKey: Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32.png using Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77232c60bbd63ea80b6bb8c0bdd2c606') in 0.064544 seconds
+  Import took 0.070189 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Audio Clips/GhostDealth.wav
-  artifactKey: Guid(ec367c98ae5664270bc8e6e2e67e4523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio Clips/GhostDealth.wav using Guid(ec367c98ae5664270bc8e6e2e67e4523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f651f1c4376fd73b7222c93d70670f3c') in 0.008304 seconds
-  Import took 0.012141 seconds .
+  Time since last request: 167.476060 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32.png
+  artifactKey: Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32.png using Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac709a004281e57f8253a2f1e4366e1') in 0.116396 seconds
+  Import took 0.149302 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Audio Clips/MoveWithoutEating.wav
-  artifactKey: Guid(b59ce5216234d43ea93c4d32277dc447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio Clips/MoveWithoutEating.wav using Guid(b59ce5216234d43ea93c4d32277dc447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d79ec736f5dffceb22eada590cd30fa') in 0.012784 seconds
-  Import took 0.017160 seconds .
+  Time since last request: 30.471553 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32.png
+  artifactKey: Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32.png using Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea157cc4f15d605b705404424b5720ac') in 0.079146 seconds
+  Import took 0.084481 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Audio Clips/Eaten.aiff
-  artifactKey: Guid(b24efa32670324e3983e5f7f7c2957bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio Clips/Eaten.aiff using Guid(b24efa32670324e3983e5f7f7c2957bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668fd09d762e120e08cb8e7a1e8be2ea') in 0.358634 seconds
-  Import took 0.364048 seconds .
+  Time since last request: 13.606883 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32.png
+  artifactKey: Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32.png using Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c1235940900573ce8523d8eb225159') in 0.052839 seconds
+  Import took 0.056802 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Audio Clips/PacmanDeath.flac
-  artifactKey: Guid(eef09c4e4c7ef480b8b59d9abd5fa3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio Clips/PacmanDeath.flac using Guid(eef09c4e4c7ef480b8b59d9abd5fa3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef627af67cae42ff5b04ec0326cc9352') in 0.358642 seconds
-  Import took 0.363772 seconds .
+  Time since last request: 14.339598 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32.png
+  artifactKey: Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32.png using Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aabcd240bb6cf25a3537970f5878ece') in 0.065728 seconds
+  Import took 0.069706 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Audio Clips/GameIntroBackgroundMusic.wav
-  artifactKey: Guid(298d6371a8b524f4ea3e58a1c9cff709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio Clips/GameIntroBackgroundMusic.wav using Guid(298d6371a8b524f4ea3e58a1c9cff709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b78586a25ca3e6ff55ce83a9646745a') in 0.010755 seconds
-  Import took 0.015005 seconds .
+  Time since last request: 40.571645 seconds.
+  path: Assets/Sprites/Walls/New Piskel (2).png
+  artifactKey: Guid(118550342fe1949db88081a5420b52c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/New Piskel (2).png using Guid(118550342fe1949db88081a5420b52c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9afcd3e1e607e448dd3526aae1a8a88') in 0.025561 seconds
+  Import took 0.029324 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Audio Clips/New Piskel.png
-  artifactKey: Guid(921a74db96308455f88b4879db9c2900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio Clips/New Piskel.png using Guid(921a74db96308455f88b4879db9c2900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6739c46c9ce3ecf1a3675442c3c6be1') in 0.034635 seconds
-  Import took 0.039509 seconds .
+  Time since last request: 0.003586 seconds.
+  path: Assets/Sprites/Walls/New Piskel (2).png
+  artifactKey: Guid(118550342fe1949db88081a5420b52c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/New Piskel (2).png using Guid(118550342fe1949db88081a5420b52c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9afcd3e1e607e448dd3526aae1a8a88') in 0.021963 seconds
+  Import took 0.026073 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Audio Clips/NormalStateBackgroundMusic.wav
-  artifactKey: Guid(5dd3a728992634dcba12eea1b9b4a4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio Clips/NormalStateBackgroundMusic.wav using Guid(5dd3a728992634dcba12eea1b9b4a4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e889c78c1483543d2ec0f53f50f8e24') in 0.035954 seconds
-  Import took 0.040582 seconds .
+  Time since last request: 46.496034 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32.png
+  artifactKey: Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32.png using Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1165b7a96cc8b4070a9e74e8ec62d7c') in 0.063567 seconds
+  Import took 0.067841 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.694906 seconds.
-  path: Assets/Audio Clips/ScaredState.mp3
-  artifactKey: Guid(a2fcab31ca967448ea879bd6a3da2afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio Clips/ScaredState.mp3 using Guid(a2fcab31ca967448ea879bd6a3da2afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10fcd7ead482bc36c6f7d4a1b2b881a') in 0.305603 seconds
-  Import took 0.310121 seconds .
+  Time since last request: 130.688009 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32.png
+  artifactKey: Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32.png using Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640b70d0feb1166d7b0e2a3f47399706') in 0.065396 seconds
+  Import took 0.070156 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.856728 seconds.
-  path: Assets/Scenes/Pacman.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Pacman.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4384e1e3aaa503bcdc4dc768e74a06') in 0.002575 seconds
-  Import took 0.006388 seconds .
+  Time since last request: 15.790930 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32.png
+  artifactKey: Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32.png using Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f852a6975c74a6362cd23e0c5a7243cb') in 0.047481 seconds
+  Import took 0.051271 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 773.563828 seconds.
-  path: Assets/Sprites/Pacman/Pacman (1).png
-  artifactKey: Guid(a9d9eb77d5d004ffca0e10a63ad02193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Pacman/Pacman (1).png using Guid(a9d9eb77d5d004ffca0e10a63ad02193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e09e421a8e8f34286c7e0e7780749d') in 0.080864 seconds
-  Import took 0.108155 seconds .
+  Time since last request: 22.756650 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32.png
+  artifactKey: Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32.png using Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ef8d9a8f15e937618c7575b4719c58') in 0.046788 seconds
+  Import took 0.050592 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000957 seconds.
-  path: Assets/Sprites/Pacman/Pacman (1).png
-  artifactKey: Guid(a9d9eb77d5d004ffca0e10a63ad02193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Pacman/Pacman (1).png using Guid(a9d9eb77d5d004ffca0e10a63ad02193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e09e421a8e8f34286c7e0e7780749d') in 0.009654 seconds
-  Import took 0.013103 seconds .
+  Time since last request: 8.449357 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32.png
+  artifactKey: Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32.png using Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46698d37337f4f55f8114bbb3cde3817') in 0.055615 seconds
+  Import took 0.059918 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.985344 seconds.
-  path: Assets/Sprites/Pacman/Pacman.png
-  artifactKey: Guid(a9d9eb77d5d004ffca0e10a63ad02193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Pacman/Pacman.png using Guid(a9d9eb77d5d004ffca0e10a63ad02193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ab3fafe789988759eba682ad6764bb') in 0.012961 seconds
-  Import took 0.017237 seconds .
+  Time since last request: 47.213363 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32.png
+  artifactKey: Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32.png using Guid(0c033c06b8d1d42d09b0ef1a47b2d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62fbb279fd1c76b7920fc740d16c7a4') in 0.048458 seconds
+  Import took 0.052354 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 182.850900 seconds.
-  path: Assets/Sprites/Pacman/Pacman (2).png
-  artifactKey: Guid(1accad333524d4e9c83df757196694ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Pacman/Pacman (2).png using Guid(1accad333524d4e9c83df757196694ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f17ca13081ff0052014d34d161ed01') in 0.045646 seconds
-  Import took 0.071761 seconds .
+  Time since last request: 715.235555 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32_0.asset
+  artifactKey: Guid(d340b0ff3b34b43c9ae6c8b75b98fb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32_0.asset using Guid(d340b0ff3b34b43c9ae6c8b75b98fb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92029b2a9bf15489e52c19772c811102') in 0.601236 seconds
+  Import took 0.649291 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.853189 seconds.
-  path: Assets/Sprites/Pacman/Pacman (2).png
-  artifactKey: Guid(1accad333524d4e9c83df757196694ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Pacman/Pacman (2).png using Guid(1accad333524d4e9c83df757196694ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e0a646a81d97183a4f84ebc4de4675') in 0.011645 seconds
-  Import took 0.016949 seconds .
+  Time since last request: 12.256584 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png.png
+  artifactKey: Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png.png using Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fb87814e523ea2e6c793f42a74b979') in 0.090821 seconds
+  Import took 0.098810 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.344978 seconds.
-  path: Assets/Sprites/Pacman/Pacman (2).png
-  artifactKey: Guid(1accad333524d4e9c83df757196694ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Pacman/Pacman (2).png using Guid(1accad333524d4e9c83df757196694ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4216fdb33a0509d973444ff5ed122083') in 0.074505 seconds
-  Import took 0.079633 seconds .
+  Time since last request: 9.442055 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png.png
+  artifactKey: Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png.png using Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428aabba3cadb31d14c77a00d4abe5f5') in 0.025752 seconds
+  Import took 0.029707 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.625832 seconds.
-  path: Assets/Sprites/Pacman/Pacman (2).png
-  artifactKey: Guid(1accad333524d4e9c83df757196694ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Pacman/Pacman (2).png using Guid(1accad333524d4e9c83df757196694ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ccfc6419c555c85578187ba27412b4') in 0.048344 seconds
-  Import took 0.052725 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001398 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.251 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.5 MB.
-System memory in use after: 167.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2288.
-Total: 6.433232 ms (FindLiveObjects: 0.675311 ms CreateObjectMapping: 0.114533 ms MarkObjects: 5.229628 ms  DeleteObjects: 0.412054 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000557 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.251 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.7 MB.
-System memory in use after: 167.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2291.
-Total: 2.589728 ms (FindLiveObjects: 0.204662 ms CreateObjectMapping: 0.070743 ms MarkObjects: 2.221565 ms  DeleteObjects: 0.090806 ms)
+  Time since last request: 11.822891 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png.png
+  artifactKey: Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png.png using Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00e45c2143f9667939151ba6ccd96af') in 0.028953 seconds
+  Import took 0.033280 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 599.577730 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(4876c4db51fa44b69b3ff12e467f44fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(4876c4db51fa44b69b3ff12e467f44fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddcbcbea3f9cfb06e40157630d30fdf') in 0.066031 seconds
-  Import took 0.156856 seconds .
+  Time since last request: 54.503619 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png.png
+  artifactKey: Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png.png using Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3a6e671bff45525485bebc805c89f1') in 0.043737 seconds
+  Import took 0.071250 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.815804 seconds.
-  path: Assets/Scripts/AnimatedSprite.cs
-  artifactKey: Guid(f71d75db9e905453ebbbc4d69b475632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/AnimatedSprite.cs using Guid(f71d75db9e905453ebbbc4d69b475632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7933762873ecd3611e9fb5c5e55f21') in 0.824409 seconds
-  Import took 0.833558 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001211 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.525 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1793 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.2 MB.
-System memory in use after: 172.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2295.
-Total: 4.938400 ms (FindLiveObjects: 0.858541 ms CreateObjectMapping: 0.172373 ms MarkObjects: 3.538636 ms  DeleteObjects: 0.366948 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002196 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.490 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1793 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.4 MB.
-System memory in use after: 172.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2298.
-Total: 2.701714 ms (FindLiveObjects: 0.398722 ms CreateObjectMapping: 0.124973 ms MarkObjects: 2.032170 ms  DeleteObjects: 0.144775 ms)
+  Time since last request: 6.143404 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png.png
+  artifactKey: Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png.png using Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2fecb4e9910461b667327e063ceae9') in 0.025254 seconds
+  Import took 0.029657 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1126.823539 seconds.
-  path: Assets/Scripts/AnimatedSprite.cs
-  artifactKey: Guid(f71d75db9e905453ebbbc4d69b475632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/AnimatedSprite.cs using Guid(f71d75db9e905453ebbbc4d69b475632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b74354f8926fc2fd476eb0dbb5f09c') in 0.017431 seconds
-  Import took 0.021017 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000837 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.161 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1793 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.6 MB.
-System memory in use after: 172.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2301.
-Total: 2.404749 ms (FindLiveObjects: 0.191112 ms CreateObjectMapping: 0.059620 ms MarkObjects: 1.541177 ms  DeleteObjects: 0.611775 ms)
+  Time since last request: 9.833388 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png.png
+  artifactKey: Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png.png using Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754f39457b2decf30166af37866b3f0d') in 0.025601 seconds
+  Import took 0.030071 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.214768 seconds.
-  path: Assets/Scripts/AnimatedSprite.cs
-  artifactKey: Guid(f71d75db9e905453ebbbc4d69b475632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/AnimatedSprite.cs using Guid(f71d75db9e905453ebbbc4d69b475632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bd4bd026bc3622b33a42f2acd60b10') in 0.003765 seconds
-  Import took 0.007104 seconds .
+  Time since last request: 5.953572 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png.png
+  artifactKey: Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png.png using Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8a36f65b64d4f2e1dd43cd687d0598') in 0.028200 seconds
+  Import took 0.031562 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.494327 seconds.
-  path: Assets/Sprites/Pacman 2.png
-  artifactKey: Guid(01fada3045eab41e2a7f724cb1572b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Pacman 2.png using Guid(01fada3045eab41e2a7f724cb1572b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d6b5132b233e4d36dcf7508e68a1f5') in 0.118066 seconds
-  Import took 0.122320 seconds .
+  Time since last request: 4.818062 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png.png
+  artifactKey: Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png.png using Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7acd085903c5e5710a00d3a525a50c') in 0.009437 seconds
+  Import took 0.012937 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.366632 seconds.
-  path: Assets/Sprites/Pacman/Pacman (3).png
-  artifactKey: Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Pacman/Pacman (3).png using Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135cf9220abb9f80d3f6e3ff5960195a') in 0.049846 seconds
-  Import took 0.066171 seconds .
+  Time since last request: 16.470856 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png.png
+  artifactKey: Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png.png using Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041a6d9f455076849b4f6485e3d98bf3') in 0.013289 seconds
+  Import took 0.016801 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001091 seconds.
-  path: Assets/Sprites/Pacman/Pacman (3).png
-  artifactKey: Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Pacman/Pacman (3).png using Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135cf9220abb9f80d3f6e3ff5960195a') in 0.012580 seconds
-  Import took 0.017340 seconds .
+  Time since last request: 4.616110 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png.png
+  artifactKey: Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png.png using Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0d6d08e53ef55ecab5e60f7ad4547e') in 0.017249 seconds
+  Import took 0.021813 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.668933 seconds.
-  path: Assets/Sprites/Pacman/Pacman (3).png
-  artifactKey: Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Pacman/Pacman (3).png using Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110a7eb321cd11dd205243945a27f1c6') in 0.010568 seconds
-  Import took 0.016019 seconds .
+  Time since last request: 0.031565 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png.png
+  artifactKey: Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png.png using Guid(c9a943774feb946eab0032a4ee4714c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0d6d08e53ef55ecab5e60f7ad4547e') in 0.009822 seconds
+  Import took 0.014086 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.249965 seconds.
-  path: Assets/Sprites/Pacman/Pacman (3).png
-  artifactKey: Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Pacman/Pacman (3).png using Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c05c499b8997ae4fccff68c363b102') in 0.033487 seconds
-  Import took 0.037351 seconds .
+  Time since last request: 55.841449 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (1).png
+  artifactKey: Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (1).png using Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b5c8118439938157696eef595cf78c') in 0.055268 seconds
+  Import took 0.061053 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.721370 seconds.
-  path: Assets/Sprites/Pacman/Pacman (3).png
-  artifactKey: Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Pacman/Pacman (3).png using Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07209204003d2f27e430a0682028848d') in 0.027760 seconds
-  Import took 0.031298 seconds .
+  Time since last request: 5.561140 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (1).png
+  artifactKey: Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (1).png using Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1c788cffb7939618905b0dee096413') in 0.007465 seconds
+  Import took 0.011629 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001797 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.289 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1793 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.8 MB.
-System memory in use after: 172.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2307.
-Total: 2.171888 ms (FindLiveObjects: 0.272014 ms CreateObjectMapping: 0.062435 ms MarkObjects: 1.719648 ms  DeleteObjects: 0.116781 ms)
+Received Import Request.
+  Time since last request: 9.791701 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (1).png
+  artifactKey: Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (1).png using Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709adb340e846860f15d74df0407c479') in 0.012041 seconds
+  Import took 0.016083 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000613 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.071 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1793 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.0 MB.
-System memory in use after: 173.0 MB.
+Received Import Request.
+  Time since last request: 49.883980 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (1).png
+  artifactKey: Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (1).png using Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba99e0d11efcdd32405dde5a1aaad053') in 0.032611 seconds
+  Import took 0.037842 seconds .
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2310.
-Total: 3.131934 ms (FindLiveObjects: 0.624681 ms CreateObjectMapping: 0.124038 ms MarkObjects: 2.085166 ms  DeleteObjects: 0.294956 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 9.579521 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (1).png
+  artifactKey: Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (1).png using Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136760089e7a85c9a0123ff8aa7acf6a') in 0.010328 seconds
+  Import took 0.014439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.030245 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (1).png
+  artifactKey: Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (1).png using Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5c27a351c51c970670b07757ae9af4') in 0.027937 seconds
+  Import took 0.031856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.336647 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (1).png
+  artifactKey: Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (1).png using Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd86e9f6b1ad8f439f186ed1f52b7b04') in 0.028907 seconds
+  Import took 0.034189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.331739 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (1).png
+  artifactKey: Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (1).png using Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684cf07c96d037692a1d72e6e66b59c3') in 0.008901 seconds
+  Import took 0.012490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.021756 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (1).png
+  artifactKey: Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (1).png using Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf64361530d61fff85c766e58c510fe') in 0.016654 seconds
+  Import took 0.025097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.753223 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (1).png
+  artifactKey: Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (1).png using Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7278807a9b8a59e6a34791af72c9b7') in 0.010766 seconds
+  Import took 0.014938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.750558 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (1).png
+  artifactKey: Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (1).png using Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7889684fedf1d27fc56a2ed66720a07') in 0.045020 seconds
+  Import took 0.072381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.671564 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (1).png
+  artifactKey: Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (1).png using Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c860a777f7c14599ebc5221c3ffd07b6') in 0.029808 seconds
+  Import took 0.034079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.244984 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (1).png
+  artifactKey: Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (1).png using Guid(29f9dc0dadaa9499197419aa4cc73745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71800a3c1f456623fa87b9749452d4c') in 0.011482 seconds
+  Import took 0.015473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.716958 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (2).png
+  artifactKey: Guid(a2d55a0ba2f2e4b1cad28b1a4221f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (2).png using Guid(a2d55a0ba2f2e4b1cad28b1a4221f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e18fe6edab4eb3a57fd929decde6763') in 0.040672 seconds
+  Import took 0.046389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.331457 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (2).png
+  artifactKey: Guid(a2d55a0ba2f2e4b1cad28b1a4221f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (2).png using Guid(a2d55a0ba2f2e4b1cad28b1a4221f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08043ee529883d7fce54754b2d93d29') in 0.035849 seconds
+  Import took 0.044360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.110867 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (2).png
+  artifactKey: Guid(a2d55a0ba2f2e4b1cad28b1a4221f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (2).png using Guid(a2d55a0ba2f2e4b1cad28b1a4221f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08043ee529883d7fce54754b2d93d29') in 0.010671 seconds
+  Import took 0.016071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.923112 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (2).png
+  artifactKey: Guid(a2d55a0ba2f2e4b1cad28b1a4221f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (2).png using Guid(a2d55a0ba2f2e4b1cad28b1a4221f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db7146927d20c1e19bbb512bca21d61') in 0.017095 seconds
+  Import took 0.021347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 612.378225 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (2).png
+  artifactKey: Guid(a2d55a0ba2f2e4b1cad28b1a4221f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (2).png using Guid(a2d55a0ba2f2e4b1cad28b1a4221f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7011c63180958a1413639be683170d10') in 0.104745 seconds
+  Import took 0.149214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.215507 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (2).png
+  artifactKey: Guid(a2d55a0ba2f2e4b1cad28b1a4221f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (2).png using Guid(a2d55a0ba2f2e4b1cad28b1a4221f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0cd9fb1c36b4cd8ef52cf11d21fff3') in 0.030381 seconds
+  Import took 0.035837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001095 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (2).png
+  artifactKey: Guid(a2d55a0ba2f2e4b1cad28b1a4221f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (2).png using Guid(a2d55a0ba2f2e4b1cad28b1a4221f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0cd9fb1c36b4cd8ef52cf11d21fff3') in 0.014695 seconds
+  Import took 0.018303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.635696 seconds.
+  path: Assets/Sprites/Walls/tilemap32x32-1.png (2).png
+  artifactKey: Guid(a2d55a0ba2f2e4b1cad28b1a4221f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Walls/tilemap32x32-1.png (2).png using Guid(a2d55a0ba2f2e4b1cad28b1a4221f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1153801389fcda7c0aa40e63751dcf4') in 0.015516 seconds
+  Import took 0.020138 seconds .
 
