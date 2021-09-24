@@ -3290,3 +3290,275 @@ Received Import Request.
 Start importing Assets/Animation/Ghosts/Ghost4/Ghost4Recover.anim using Guid(5d1772b755d6b4166b8cab5f87f37e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27991288659f73a520e361d0f34f517') in 0.003646 seconds
   Import took 0.009052 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 216.042301 seconds.
+  path: Assets/Sprites/Pacman/Pacman (3).png
+  artifactKey: Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman (3).png using Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d54235008e0e9c5dd31f19dee073cec') in 0.435769 seconds
+  Import took 0.471145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Sprites/Pacman/Pacman (3).png
+  artifactKey: Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman (3).png using Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d54235008e0e9c5dd31f19dee073cec') in 0.035978 seconds
+  Import took 0.039108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.546454 seconds.
+  path: Assets/Sprites/Pacman/Pacman (3).png
+  artifactKey: Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman (3).png using Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1505cff0a499ff5d6221d32af16fa6') in 0.034329 seconds
+  Import took 0.038772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.938696 seconds.
+  path: Assets/Sprites/Pacman/Pacman (3).png
+  artifactKey: Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman (3).png using Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a778bddd6f559bf2ee94c18f065470') in 0.108090 seconds
+  Import took 0.139554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 594.609237 seconds.
+  path: Assets/Sprites/Pacman/Pacman-6.png.png
+  artifactKey: Guid(98e5cefc2ddc34e7498c80fa21298457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman-6.png.png using Guid(98e5cefc2ddc34e7498c80fa21298457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5db6981e30871b7ef548308eb0dead9') in 0.159543 seconds
+  Import took 0.211767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.712037 seconds.
+  path: Assets/Sprites/Pacman/Pacman-7.png.png
+  artifactKey: Guid(3e13161faa909415ba920c28f2f39f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman-7.png.png using Guid(3e13161faa909415ba920c28f2f39f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ecb189a7c8bc1806fc4640867f1ee4') in 0.027546 seconds
+  Import took 0.033167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.723148 seconds.
+  path: Assets/Sprites/Pacman/Pacman-8.png.png
+  artifactKey: Guid(5f361a241b6f24edebeb5a4cf7f0d2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman-8.png.png using Guid(5f361a241b6f24edebeb5a4cf7f0d2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29827c36f4877f5e6733f4950122ddab') in 0.019808 seconds
+  Import took 0.025494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005112 seconds.
+  path: Assets/Sprites/Pacman/Pacman-8.png.png
+  artifactKey: Guid(5f361a241b6f24edebeb5a4cf7f0d2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman-8.png.png using Guid(5f361a241b6f24edebeb5a4cf7f0d2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29827c36f4877f5e6733f4950122ddab') in 0.016781 seconds
+  Import took 0.021575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.597014 seconds.
+  path: Assets/Sprites/Pacman/Pacman-9.png (1).png
+  artifactKey: Guid(a6aa428f542b34f40b360c99abd1687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman-9.png (1).png using Guid(a6aa428f542b34f40b360c99abd1687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc99c6a77fdc63d773b9150ef8a5bae') in 0.020614 seconds
+  Import took 0.025818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001217 seconds.
+  path: Assets/Sprites/Pacman/Pacman-9.png (1).png
+  artifactKey: Guid(a6aa428f542b34f40b360c99abd1687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman-9.png (1).png using Guid(a6aa428f542b34f40b360c99abd1687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc99c6a77fdc63d773b9150ef8a5bae') in 0.017973 seconds
+  Import took 0.022130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.699324 seconds.
+  path: Assets/Sprites/Pacman/Pacman-10.png (1).png
+  artifactKey: Guid(a9c236277068a477f96fd2de7c1601bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman-10.png (1).png using Guid(a9c236277068a477f96fd2de7c1601bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b56138651e11eb728640b2148acab8') in 0.013677 seconds
+  Import took 0.018397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002123 seconds.
+  path: Assets/Sprites/Pacman/Pacman-10.png (1).png
+  artifactKey: Guid(a9c236277068a477f96fd2de7c1601bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman-10.png (1).png using Guid(a9c236277068a477f96fd2de7c1601bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b56138651e11eb728640b2148acab8') in 0.011591 seconds
+  Import took 0.014711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.429812 seconds.
+  path: Assets/Sprites/Pacman/Pacman_Death1.png
+  artifactKey: Guid(98e5cefc2ddc34e7498c80fa21298457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman_Death1.png using Guid(98e5cefc2ddc34e7498c80fa21298457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a1bd402a5f71c53c3c10c0bd6e6999') in 0.012260 seconds
+  Import took 0.016827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.336376 seconds.
+  path: Assets/Sprites/Pacman/Pacman_Death2.png
+  artifactKey: Guid(3e13161faa909415ba920c28f2f39f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman_Death2.png using Guid(3e13161faa909415ba920c28f2f39f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2700dc44f0675b580b68679ac663039a') in 0.012619 seconds
+  Import took 0.017153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.787093 seconds.
+  path: Assets/Sprites/Pacman/Pacman_Death3.png
+  artifactKey: Guid(5f361a241b6f24edebeb5a4cf7f0d2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman_Death3.png using Guid(5f361a241b6f24edebeb5a4cf7f0d2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5a87f3a59b62a3b5773615bfdb24b2') in 0.011225 seconds
+  Import took 0.015497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.929409 seconds.
+  path: Assets/Sprites/Pacman/Pacman_Death4.png
+  artifactKey: Guid(a6aa428f542b34f40b360c99abd1687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman_Death4.png using Guid(a6aa428f542b34f40b360c99abd1687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9839c94ed589229886ff8ed5c1cbb2c8') in 0.010112 seconds
+  Import took 0.014496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.361936 seconds.
+  path: Assets/Sprites/Pacman/Pacman_Death5.png
+  artifactKey: Guid(a9c236277068a477f96fd2de7c1601bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman_Death5.png using Guid(a9c236277068a477f96fd2de7c1601bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e9862d44590aeffb4f5b8baae8ddef') in 0.014364 seconds
+  Import took 0.019504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.319368 seconds.
+  path: Assets/Sprites/Pacman/Pacman_Death1.png
+  artifactKey: Guid(98e5cefc2ddc34e7498c80fa21298457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman_Death1.png using Guid(98e5cefc2ddc34e7498c80fa21298457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de12d4a63cb0cbef28c08f900170759a') in 0.020799 seconds
+  Import took 0.025090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Sprites/Pacman/Pacman_Death2.png
+  artifactKey: Guid(3e13161faa909415ba920c28f2f39f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman_Death2.png using Guid(3e13161faa909415ba920c28f2f39f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83deadb93615a4b6fcd5ca34b6336475') in 0.008973 seconds
+  Import took 0.012724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sprites/Pacman/Pacman_Death5.png
+  artifactKey: Guid(a9c236277068a477f96fd2de7c1601bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman_Death5.png using Guid(a9c236277068a477f96fd2de7c1601bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a296495fad6ba046d3656c0a4ec1b1a') in 0.006194 seconds
+  Import took 0.010419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Sprites/Pacman/Pacman_Death3.png
+  artifactKey: Guid(5f361a241b6f24edebeb5a4cf7f0d2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman_Death3.png using Guid(5f361a241b6f24edebeb5a4cf7f0d2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b50066adf165de4bce2c542c74caca9') in 0.008376 seconds
+  Import took 0.011424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Sprites/Pacman/Pacman_Death4.png
+  artifactKey: Guid(a6aa428f542b34f40b360c99abd1687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman_Death4.png using Guid(a6aa428f542b34f40b360c99abd1687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356d89b18983d6385f6d4aff48fd76f8') in 0.006573 seconds
+  Import took 0.010263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.872064 seconds.
+  path: Assets/Sprites/Pacman/Pacman_Death1.png
+  artifactKey: Guid(98e5cefc2ddc34e7498c80fa21298457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman_Death1.png using Guid(98e5cefc2ddc34e7498c80fa21298457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2911fed386219bd962b54dce50c7d1fe') in 0.032797 seconds
+  Import took 0.036024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.542796 seconds.
+  path: Assets/Sprites/Pacman/Pacman_Death2.png
+  artifactKey: Guid(3e13161faa909415ba920c28f2f39f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman_Death2.png using Guid(3e13161faa909415ba920c28f2f39f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b142879f781f2a696c821710ef6068ec') in 0.030309 seconds
+  Import took 0.034826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001137 seconds.
+  path: Assets/Sprites/Pacman/Pacman_Death2.png
+  artifactKey: Guid(3e13161faa909415ba920c28f2f39f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman_Death2.png using Guid(3e13161faa909415ba920c28f2f39f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b142879f781f2a696c821710ef6068ec') in 0.028600 seconds
+  Import took 0.032099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.672560 seconds.
+  path: Assets/Sprites/Pacman/Pacman_Death3.png
+  artifactKey: Guid(5f361a241b6f24edebeb5a4cf7f0d2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman_Death3.png using Guid(5f361a241b6f24edebeb5a4cf7f0d2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88a5d39ee8135533b14beb64fea21a2') in 0.027699 seconds
+  Import took 0.031584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.530489 seconds.
+  path: Assets/Sprites/Pacman/Pacman_Death4.png
+  artifactKey: Guid(a6aa428f542b34f40b360c99abd1687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman_Death4.png using Guid(a6aa428f542b34f40b360c99abd1687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da1f85e93cd282c1819e8e1235da941') in 0.031919 seconds
+  Import took 0.036730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000984 seconds.
+  path: Assets/Sprites/Pacman/Pacman_Death4.png
+  artifactKey: Guid(a6aa428f542b34f40b360c99abd1687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman_Death4.png using Guid(a6aa428f542b34f40b360c99abd1687e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da1f85e93cd282c1819e8e1235da941') in 0.025853 seconds
+  Import took 0.029308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.354150 seconds.
+  path: Assets/Sprites/Pacman/Pacman_Death5.png
+  artifactKey: Guid(a9c236277068a477f96fd2de7c1601bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman_Death5.png using Guid(a9c236277068a477f96fd2de7c1601bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e43e95ca67df37ec4a53a7fb5e2ad3b') in 0.011853 seconds
+  Import took 0.016969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.309338 seconds.
+  path: Assets/Sprites/Pacman/Pacman.png
+  artifactKey: Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman.png using Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9d97adf3e692c4d40a53b57321ebe4') in 0.029601 seconds
+  Import took 0.034383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022322 seconds.
+  path: Assets/Sprites/Pacman/Pacman.png
+  artifactKey: Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pacman/Pacman.png using Guid(92eb8ea90298242bb95f45903b2367a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9d97adf3e692c4d40a53b57321ebe4') in 0.019772 seconds
+  Import took 0.022807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.886566 seconds.
+  path: Assets/Animation/Pacman/Pacman.controller
+  artifactKey: Guid(aa3ef91663d034da3bc472cbe7af0da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Pacman/Pacman.controller using Guid(aa3ef91663d034da3bc472cbe7af0da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941da1084a039dc2ea8c7fc821428dcf') in 0.037363 seconds
+  Import took 0.045593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 729.210349 seconds.
+  path: Assets/Animation/PowerPellet
+  artifactKey: Guid(9b4a3668372d449c0a45f202ad4d326c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/PowerPellet using Guid(9b4a3668372d449c0a45f202ad4d326c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2980850254cd79fa885e7c7093d31774') in 0.018197 seconds
+  Import took 0.076850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.950369 seconds.
+  path: Assets/Animation/PowerPellet/FlashingPowerPellet.controller
+  artifactKey: Guid(9eff47afdcac64d25a9f3bafb4428301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/PowerPellet/FlashingPowerPellet.controller using Guid(9eff47afdcac64d25a9f3bafb4428301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc47a9c8b1135d79da4bfcbd4740ce56') in 0.054600 seconds
+  Import took 0.062421 seconds .
+
