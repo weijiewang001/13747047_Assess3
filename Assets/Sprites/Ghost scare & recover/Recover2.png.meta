@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0adcb11d2898f467497724e50369e19d
+guid: e28cce1cdd5d14f4a87efb736e45f287
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8986173220217792346
-    second: GhostDeath_0
+      213: 3564200137129922303
+    second: Recover2_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -118,13 +118,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GhostDeath_0
+      name: Recover2_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 60
-        width: 28
-        height: 12
+        x: 44
+        y: 48
+        width: 36
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a85ac62113ba4380800000000000000
-      internalID: -8986173220217792346
+      spriteID: ffe070a0425967130800000000000000
+      internalID: 3564200137129922303
       vertices: []
       indices: 
       edges: []
