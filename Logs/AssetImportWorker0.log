@@ -2410,3 +2410,67 @@ Received Import Request.
 Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74cb4a75f3943dceae76ffaaebf56c8') in 0.179193 seconds
   Import took 0.222540 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002120 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.533 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.6 MB.
+System memory in use after: 175.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2327.
+Total: 4.091275 ms (FindLiveObjects: 1.659322 ms CreateObjectMapping: 0.075155 ms MarkObjects: 2.212709 ms  DeleteObjects: 0.143201 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1736.080894 seconds.
+  path: Assets/Audio Clips/CollidesWall.aiff
+  artifactKey: Guid(b24efa32670324e3983e5f7f7c2957bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Clips/CollidesWall.aiff using Guid(b24efa32670324e3983e5f7f7c2957bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e08798589197bfce7d5a2e3150486b1') in 0.988926 seconds
+  Import took 1.136891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.461186 seconds.
+  path: Assets/Audio Clips/Eaten.wav
+  artifactKey: Guid(b74c10cd3afef43a69ebe10d96fafa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Clips/Eaten.wav using Guid(b74c10cd3afef43a69ebe10d96fafa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06855c14eac8e56ab814bb191ac9559c') in 0.306218 seconds
+  Import took 0.313238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.049880 seconds.
+  path: Assets/Audio Clips/Eating.wav
+  artifactKey: Guid(b74c10cd3afef43a69ebe10d96fafa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Clips/Eating.wav using Guid(b74c10cd3afef43a69ebe10d96fafa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c8af0ece2ce73840b926ec80fc44a5') in 0.023180 seconds
+  Import took 0.029396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.307853 seconds.
+  path: Assets/Audio Clips/NotEating.wav
+  artifactKey: Guid(b59ce5216234d43ea93c4d32277dc447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Clips/NotEating.wav using Guid(b59ce5216234d43ea93c4d32277dc447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccd5c0d916d856708bab1e20acd5313') in 0.012222 seconds
+  Import took 0.017488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000733 seconds.
+  path: Assets/Audio Clips/NotEating.wav
+  artifactKey: Guid(b59ce5216234d43ea93c4d32277dc447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Clips/NotEating.wav using Guid(b59ce5216234d43ea93c4d32277dc447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccd5c0d916d856708bab1e20acd5313') in 0.019919 seconds
+  Import took 0.023668 seconds .
+
