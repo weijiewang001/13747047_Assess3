@@ -4,17 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - MapLevel_1
   - Audio_Intro
   - Heart
-  - SE_notEat
   - Audio_Normal
-  - map
   - Pacman
-  - border
   - AspectRatioText
-  - HUD
-  - GhostScaredTimer
   - cherry
   - NormalStateBackgroundMusic
   layers:
