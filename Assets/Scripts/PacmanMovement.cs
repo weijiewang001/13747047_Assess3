@@ -7,6 +7,7 @@ using UnityEngine;
 public class PacmanMovement : MonoBehaviour
 {
     public Animator animatorController;
+    public AudioSource moveAudio;
     private void Start()
     {
         
@@ -17,6 +18,7 @@ public class PacmanMovement : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.A))
         {
             animatorController.SetTrigger("PacmanLeft");
+            moveAudio.Play();
         }
     }
 
