@@ -301,14 +301,6 @@ public class LevelGenerator : MonoBehaviour
             lowerRight[i].transform.Rotate(0f, 0f, 90f);
         }
     }
-    private void Heart()
-    {
-        for (int i = 0; i < 3; i++)
-        {
-            hearts[i] = Instantiate(HeartPrefab, new Vector2(-14 + i, -14), Quaternion.identity);
-            hearts[i].transform.parent = heart.transform;
-            hearts[i].name = "Heart" + i;
-        }
-    }
+    
 
 }

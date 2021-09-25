@@ -2210,3 +2210,75 @@ Received Import Request.
 Start importing Assets/Animation/Pacman/Pacman.controller using Guid(aa3ef91663d034da3bc472cbe7af0da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664997a311871b911471e614bb050656') in 0.174944 seconds
   Import took 0.180690 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 370.575944 seconds.
+  path: Assets/Scripts/LevelGenerator.cs
+  artifactKey: Guid(9894ba254d00c4c6181d84f4f7ed579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LevelGenerator.cs using Guid(9894ba254d00c4c6181d84f4f7ed579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f0817edd2a30b641b0b567e3f63b2b') in 0.051176 seconds
+  Import took 0.193196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1089.745573 seconds.
+  path: Assets/Sprites/Map_Sprites/sprite_map0 2.png
+  artifactKey: Guid(85dcffc1e321d4d4c8fa128b1b0903f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Map_Sprites/sprite_map0 2.png using Guid(85dcffc1e321d4d4c8fa128b1b0903f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ece1d600c42a6c2e8a586d1352fcb70') in 0.876019 seconds
+  Import took 0.936225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Sprites/Map_Sprites/sprite_map6 2.png
+  artifactKey: Guid(637221e422a664787a76f294b982f595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Map_Sprites/sprite_map6 2.png using Guid(637221e422a664787a76f294b982f595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfc950be50d372f5330ce89aee1064d') in 0.016174 seconds
+  Import took 0.021406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sprites/Map_Sprites/sprite_map2 2.png
+  artifactKey: Guid(ce471e24655c74fb68e245e576f61860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Map_Sprites/sprite_map2 2.png using Guid(ce471e24655c74fb68e245e576f61860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af828e43a80515585a16c136f74ece05') in 0.016207 seconds
+  Import took 0.020245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Sprites/Map_Sprites/sprite_map3 2.png
+  artifactKey: Guid(7fa0c6339c4ed427ba28b3b1a4b596aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Map_Sprites/sprite_map3 2.png using Guid(7fa0c6339c4ed427ba28b3b1a4b596aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de86834c297292f494dbd4e3fc8b051') in 0.026585 seconds
+  Import took 0.030410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Sprites/Map_Sprites/sprite_map7 2.png
+  artifactKey: Guid(5fbff7deb98e9427694035094227f503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Map_Sprites/sprite_map7 2.png using Guid(5fbff7deb98e9427694035094227f503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355f7f87be4cde151ee65fa65ddb3f5d') in 0.020732 seconds
+  Import took 0.026317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Sprites/Map_Sprites/sprite_map4 2.png
+  artifactKey: Guid(1345ea2c199444fd4b84c959f9626490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Map_Sprites/sprite_map4 2.png using Guid(1345ea2c199444fd4b84c959f9626490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ff6dce849600d855d05b4d55afa6a0') in 0.016807 seconds
+  Import took 0.021015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/Map_Sprites/sprite_map1 2.png
+  artifactKey: Guid(321b2652dccc44c9c9127d0c77c67f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Map_Sprites/sprite_map1 2.png using Guid(321b2652dccc44c9c9127d0c77c67f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04891d41774034fd209a9dbcbe6c554d') in 0.015107 seconds
+  Import took 0.019579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001383 seconds.
+  path: Assets/Sprites/Map_Sprites/sprite_map5 2.png
+  artifactKey: Guid(8da7d7e580e554566a21f01e81960bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Map_Sprites/sprite_map5 2.png using Guid(8da7d7e580e554566a21f01e81960bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe935fb4d845c2a9a3e1fd3e0c114d3') in 0.015036 seconds
+  Import took 0.020757 seconds .
+
