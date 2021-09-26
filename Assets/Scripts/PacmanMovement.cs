@@ -6,59 +6,72 @@ using UnityEngine;
 
 public class PacmanMovement : MonoBehaviour
 {
-    //private bool switchedOn = false;
     private GameObject pacman = default;
     private Animator pacmanAnimator = default;
+    private float timer;
     //public Animator animatorController;
-    public AudioSource moveAudio;
-    float speed = 2.5f;
+    public AudioSource noEatingMoveAudio;
     float timeElapsed;
-    const float lerpDurationA = 4.8f;
-    const float lerpDurationB = 2f;
+    const float lerpPeriodA = 4f;
+    const float lerpPeriodB = 2.5f;
+    
 
 
     private void Start()
     {
         pacman = GameObject.FindWithTag("Pacman"); 
         pacman.transform.position = new Vector3(-12.5f, 13.5f, 0f);
-        pacmanAnimator = pacman.GetComponent<Animator>();
-        //pacmanAnimator.SetTrigger("Pacman_TurnRight");
         timeElapsed = 0;
 
     }
 
     private void Update()
     {
-        if (timeElapsed >= lerpDurationA && timeElapsed < (lerpDurationA + lerpDurationB))
+        //No eating Player
+        timer += Time.deltaTime;
+        if(timer - 0.5 > 0)
         {
-            pacman.transform.position = Vector3.Lerp(new Vector3(-1.5f, 13.5f, 0), new Vector3(-1.5f, 9.5f, 0), (timeElapsed - lerpDurationA) / lerpDurationB);
+            noEatingMoveAudio.Play();
+            timer = 0;
+        }
+
+
+        //The first path
+        if (timeElapsed < lerpPeriodA && timeElapsed >= 0  )
+        {
+            pacman.transform.position = Vector3.Lerp(new Vector3(-12.5f, 13.5f, 0), new Vector3(-1.5f, 13.5f, 0), timeElapsed / lerpPeriodA);
             timeElapsed += Time.deltaTime;
         }
-        if (timeElapsed >= (lerpDurationA + lerpDurationB) && timeElapsed < (lerpDurationA * 2 + lerpDurationB))
+
+        //The second path
+        if (timeElapsed < (lerpPeriodA + lerpPeriodB) && timeElapsed >= lerpPeriodA)
         {
-            pacman.transform.position = Vector3.Lerp(new Vector3(-1.5f, 9.5f, 0), new Vector3(-12.5f, 9.5f, 0), (timeElapsed - lerpDurationA - lerpDurationB) / lerpDurationA);
+            pacman.transform.position = Vector3.Lerp(new Vector3(-1.5f, 13.5f, 0), new Vector3(-1.5f, 9.5f, 0), (timeElapsed - lerpPeriodA) / lerpPeriodB);
             timeElapsed += Time.deltaTime;
         }
-        if (timeElapsed >= (lerpDurationA * 2 + lerpDurationB) && timeElapsed < 2 * (lerpDurationA + lerpDurationB))
+
+        //The third path
+        if (timeElapsed >= (lerpPeriodA + lerpPeriodB) && timeElapsed < (lerpPeriodA * 2 + lerpPeriodB))
         {
-            pacman.transform.position = Vector3.Lerp(new Vector3(-12.5f, 9.5f, 0), new Vector3(-12.5f, 13.5f, 0), (timeElapsed - lerpDurationA * 2 - lerpDurationB) / lerpDurationB);
+            pacman.transform.position = Vector3.Lerp(new Vector3(-1.5f, 9.5f, 0), new Vector3(-12.5f, 9.5f, 0), (timeElapsed - lerpPeriodA - lerpPeriodB) / lerpPeriodA);
             timeElapsed += Time.deltaTime;
         }
-        if (timeElapsed >= 0 && timeElapsed < lerpDurationA)
+
+        //The forth path
+        if (timeElapsed >= (lerpPeriodA * 2 + lerpPeriodB) && timeElapsed < 2 * (lerpPeriodA + lerpPeriodB))
         {
-            pacman.transform.position = Vector3.Lerp(new Vector3(-12.5f, 13.5f, 0), new Vector3(-1.5f, 13.5f, 0), timeElapsed / lerpDurationA);
+            pacman.transform.position = Vector3.Lerp(new Vector3(-12.5f, 9.5f, 0), new Vector3(-12.5f, 13.5f, 0), (timeElapsed - lerpPeriodA * 2 - lerpPeriodB) / lerpPeriodB);
             timeElapsed += Time.deltaTime;
         }
-        if (timeElapsed >= 2 * (lerpDurationA + lerpDurationB))
+        
+        //Reset timeElapsed
+        if (timeElapsed >= 2 * (lerpPeriodA + lerpPeriodB))
         {
             timeElapsed = 0;
         }
 
-        //if(Input.GetKeyDown(KeyCode.A))
-        //{
-        //    animatorController.SetTrigger("PacmanLeft");
-        //    moveAudio.Play();
-        //}
+        
     }
+   
 
 }

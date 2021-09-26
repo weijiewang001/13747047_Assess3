@@ -7,16 +7,20 @@ using System;
 public class Tweener : MonoBehaviour
 {
     private Tween activeTween;
+    private float distance;
 
     void Update()
     {
+
+        
+
         if (activeTween != null && activeTween.Target != null)
         {
-            if (Vector3.Distance(activeTween.Target.position, activeTween.EndPos) > 0.1f)
+            distance = Vector3.Distance(activeTween.Target.position, activeTween.EndPos);
+            if (distance > 0.1f)
             {
                 float timeFraction = (Time.time - activeTween.StartTime) / activeTween.Duration;
                 activeTween.Target.position = Vector3.Lerp(activeTween.StartPos, activeTween.EndPos, timeFraction);
-                //activeTween.Target.position = activeTween.StartPos + activeTween.EndPos * timeFraction * timeFraction * timeFraction;
             }
             else
             {

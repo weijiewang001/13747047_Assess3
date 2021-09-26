@@ -5,12 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Audio_Intro
-  - Heart
   - Audio_Normal
   - Pacman
   - AspectRatioText
   - cherry
   - NormalStateBackgroundMusic
+  - Grid
+  - Map
   layers:
   - Default
   - TransparentFX
