@@ -90,3 +90,83 @@ Received Import Request.
 Start importing Assets/Scripts/LevelGenerator.cs using Guid(9894ba254d00c4c6181d84f4f7ed579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e28b3ac2769e9d7eaf4d384ed15bfd') in 0.368530 seconds
   Import took 0.372643 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001781 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.206 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1796 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.0 MB.
+System memory in use after: 146.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2246.
+Total: 3.330087 ms (FindLiveObjects: 0.578837 ms CreateObjectMapping: 0.215541 ms MarkObjects: 2.327855 ms  DeleteObjects: 0.206718 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1796 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.2 MB.
+System memory in use after: 147.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2249.
+Total: 2.436767 ms (FindLiveObjects: 0.193928 ms CreateObjectMapping: 0.057663 ms MarkObjects: 2.065878 ms  DeleteObjects: 0.117123 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002031 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.325 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1796 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.4 MB.
+System memory in use after: 147.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2252.
+Total: 3.246140 ms (FindLiveObjects: 0.307696 ms CreateObjectMapping: 0.073629 ms MarkObjects: 1.958380 ms  DeleteObjects: 0.905259 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6503.907678 seconds.
+  path: Assets/Audio Clips/GameIntroBackgroundMusic.wav
+  artifactKey: Guid(c7de831b6e3e54aecb4ed3dffbfb62e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio Clips/GameIntroBackgroundMusic.wav using Guid(c7de831b6e3e54aecb4ed3dffbfb62e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc2c7684ed37175842194c7c001fa32') in 1.225080 seconds
+  Import took 1.534527 seconds .
+
