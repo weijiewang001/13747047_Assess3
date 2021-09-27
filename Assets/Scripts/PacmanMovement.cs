@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
-
 
 public class PacmanMovement : MonoBehaviour
 {
@@ -11,9 +7,9 @@ public class PacmanMovement : MonoBehaviour
     private float timer;
     //public Animator animatorController;
     public AudioSource noEatingMoveAudio;
-    float timeElapsed;
-    const float lerpPeriodA = 4f;
-    const float lerpPeriodB = 2.5f;
+    float timeElapse;
+    float Period1 = 4f;
+    float Period2 = 2.5f;
     
 
 
@@ -21,7 +17,7 @@ public class PacmanMovement : MonoBehaviour
     {
         pacman = GameObject.FindWithTag("Pacman"); 
         pacman.transform.position = new Vector3(-12.5f, 13.5f, 0f);
-        timeElapsed = 0;
+        timeElapse = 0;
 
     }
 
@@ -37,37 +33,37 @@ public class PacmanMovement : MonoBehaviour
 
 
         //The first path
-        if (timeElapsed < lerpPeriodA && timeElapsed >= 0  )
+        if (timeElapse < Period1 && timeElapse >= 0  )
         {
-            pacman.transform.position = Vector3.Lerp(new Vector3(-12.5f, 13.5f, 0), new Vector3(-1.5f, 13.5f, 0), timeElapsed / lerpPeriodA);
-            timeElapsed += Time.deltaTime;
+            pacman.transform.position = Vector3.Lerp(new Vector3(-12.5f, 13.5f, 0), new Vector3(-1.5f, 13.5f, 0), timeElapse / Period1);
+            timeElapse += Time.deltaTime;
         }
 
         //The second path
-        if (timeElapsed < (lerpPeriodA + lerpPeriodB) && timeElapsed >= lerpPeriodA)
+        if (timeElapse < (Period1 + Period2) && timeElapse >= Period1)
         {
-            pacman.transform.position = Vector3.Lerp(new Vector3(-1.5f, 13.5f, 0), new Vector3(-1.5f, 9.5f, 0), (timeElapsed - lerpPeriodA) / lerpPeriodB);
-            timeElapsed += Time.deltaTime;
+            pacman.transform.position = Vector3.Lerp(new Vector3(-1.5f, 13.5f, 0), new Vector3(-1.5f, 9.5f, 0), (timeElapse - Period1) / Period2);
+            timeElapse += Time.deltaTime;
         }
 
         //The third path
-        if (timeElapsed >= (lerpPeriodA + lerpPeriodB) && timeElapsed < (lerpPeriodA * 2 + lerpPeriodB))
+        if (timeElapse >= (Period1 + Period2) && timeElapse < (Period1 * 2 + Period2))
         {
-            pacman.transform.position = Vector3.Lerp(new Vector3(-1.5f, 9.5f, 0), new Vector3(-12.5f, 9.5f, 0), (timeElapsed - lerpPeriodA - lerpPeriodB) / lerpPeriodA);
-            timeElapsed += Time.deltaTime;
+            pacman.transform.position = Vector3.Lerp(new Vector3(-1.5f, 9.5f, 0), new Vector3(-12.5f, 9.5f, 0), (timeElapse - Period1 - Period2) / Period1);
+            timeElapse += Time.deltaTime;
         }
 
         //The forth path
-        if (timeElapsed >= (lerpPeriodA * 2 + lerpPeriodB) && timeElapsed < 2 * (lerpPeriodA + lerpPeriodB))
+        if (timeElapse >= (Period1 * 2 + Period2) && timeElapse < 2 * (Period1 + Period2))
         {
-            pacman.transform.position = Vector3.Lerp(new Vector3(-12.5f, 9.5f, 0), new Vector3(-12.5f, 13.5f, 0), (timeElapsed - lerpPeriodA * 2 - lerpPeriodB) / lerpPeriodB);
-            timeElapsed += Time.deltaTime;
+            pacman.transform.position = Vector3.Lerp(new Vector3(-12.5f, 9.5f, 0), new Vector3(-12.5f, 13.5f, 0), (timeElapse - Period1 * 2 - Period2) / Period2);
+            timeElapse += Time.deltaTime;
         }
         
         //Reset timeElapsed
-        if (timeElapsed >= 2 * (lerpPeriodA + lerpPeriodB))
+        if (timeElapse >= 2 * (Period1 + Period2))
         {
-            timeElapsed = 0;
+            timeElapse = 0;
         }
 
         
