@@ -29,6 +29,7 @@ public class LevelGenerator : MonoBehaviour
     public static int y;
     private int i;
     private int map1;
+    private bool signal = false;
     private int r;
     private int c;
     private int d;
@@ -83,22 +84,41 @@ public class LevelGenerator : MonoBehaviour
             {
                 if (levelMap[newrow, newcolumn] == 1)
                 {
-                    
-                    r = newrow + 1;
-                    c = newcolumn;
 
-                    while (levelMap[r, c] == 2)
+                    //Topleft[i].transform.rotation = Quaternion.Euler(0f, 0f, 180.0f); 
+                    signal = true;
+                    while (signal)
                     {
-                        d = r + c;
-                        Topleft[d].transform.rotation = Quaternion.Euler(0f, 0f, 90.0f);
+                        r = newrow + 1;
+                        c = newcolumn;
+                        if (levelMap[r, c] == 2)
+                        {
+                            d = r + c;
+                            Topleft[d].transform.rotation = Quaternion.Euler(0f, 0f, 90.0f);
+                            break;
+                        }
+                        else
+                        {
+                            signal = false;
+                        }
                     }
+                    i++;
+
+
+
+
+                    //while (levelMap[r, c] == 2)
+                    //{
+                    //    d = r + c;
+                    //    Topleft[d].transform.rotation = Quaternion.Euler(0f, 0f, 90.0f);
+                    //}
 
                     //if (levelMap[r,c] == 2)
                     //{
                     //    d = r + c;
                     //    Topleft[d].transform.rotation = Quaternion.Euler(0f, 0f, 90.0f);
                     //}
-                    
+
                     //if (levelMap[r, c] == 2)
                     //{
                     //    d = r + c;
@@ -110,23 +130,7 @@ public class LevelGenerator : MonoBehaviour
         }
 
 
-                //i = 1;
-                //for (int newrow = 0; newrow < Row; newrow++)
-                //{
-                //    for (int newcolumn = 0; newcolumn < Column; newcolumn++)
-                //    {
-                //        foreach (Transform child in transform)
-                //        {
-                //            if Topleft[i].GetComponent<MapGo>
-                //            if (child.name == "MapTopLeft1")
-                //            {
-
-                //                child.transform.rotation = Quaternion.Euler(0f, 0f, 90.0f);
-                //            }
-                //        }
-
-                //    }
-                //}
+                
 
 
                 //i = 1;
@@ -216,111 +220,6 @@ public class LevelGenerator : MonoBehaviour
     //    }
     //    upperRight[Tjuc].GetComponent<SpriteRenderer>().flipX = true;
 
-    //}
-    //private void LowerLeft()
-    //{
-    //    i = 1;
-    //    x = -14;
-    //    y = -13;
-    //    for (int row = 0; row < Row - 1; row++)
-    //    {
-    //        for (int column = 0; column < Column; column++)
-    //        {
-    //            lowerLeft[i] = Instantiate(MapGameObjects[levelMap[row, column]], new Vector2(x + column, y + row), Quaternion.identity);
-    //            //lowerLeft[i].transform.parent = map.transform;
-    //            if (levelMap[row, column] == 5)
-    //            {
-    //                lowerLeft[i].transform.parent = dot.transform;
-    //            }
-    //            else if (levelMap[row, column] == 6)
-    //            {
-    //                //lowerLeft[i].transform.parent = PowerPellet.transform;
-    //            }
-    //            else
-    //            {
-    //                lowerLeft[i].transform.parent = map.transform;
-    //            }
-    //            lowerLeft[i].name = "MapLowerLeft" + i;
-    //            if (i < lowerLeft.Length) i++;
-    //        }
-    //    }
-    //    lowerLeft[Tjuc].GetComponent<SpriteRenderer>().flipY = true;
-    //    Destroy(lowerLeft[182]);
-    //    lowerLeft[182] = Instantiate(MapGameObjects[4], new Vector3(-1, -1), Quaternion.identity);
-    //    lowerLeft[182].transform.parent = map.transform;
-    //    lowerLeft[182].name = "MapLowerLeft182";
-    //    foreach (int i in RotationLine)
-    //    {
-    //        if (i <= 196) lowerLeft[i].transform.Rotate(0f, 0f, -90.0f);
-    //    }
-
-    //    foreach (int i in RotationA)
-    //    {
-    //        lowerLeft[i].transform.Rotate(0f, 0f, 90.0f);
-    //    }
-
-    //    foreach (int i in RotationB)
-    //    {
-    //        lowerLeft[i].transform.Rotate(0f, 0f, 180.0f);
-    //    }
-
-    //    foreach (int i in RotationD)
-    //    {
-    //        lowerLeft[i].transform.Rotate(0f, 0f, -90f);
-    //    }
-    //}
-    //private void LowerRight()
-    //{
-    //    i = 1;
-    //    x = 13;
-    //    y = -13;
-    //    for (int row = 0; row < Row - 1; row++)
-    //    {
-    //        for (int column = 0; column < Column; column++)
-    //        {
-    //            lowerRight[i] = Instantiate(MapGameObjects[levelMap[row, column]], new Vector2(x - column, y + row), Quaternion.identity);
-    //            if (levelMap[row, column] == 5)
-    //            {
-    //                lowerRight[i].transform.parent = dot.transform;
-    //            }
-    //            else if (levelMap[row, column] == 6)
-    //            {
-    //                //lowerRight[i].transform.parent = PowerPellet.transform;
-    //            }
-    //            else
-    //            {
-    //                lowerRight[i].transform.parent = map.transform;
-    //            }
-    //            lowerRight[i].name = "MapLowerRight" + i;
-    //            if (i <= 210) i++;
-    //        }
-    //    }
-    //    //Destroy(lowerRight[44]);
-    //    lowerRight[Tjuc].GetComponent<SpriteRenderer>().flipX = true;
-    //    lowerRight[Tjuc].GetComponent<SpriteRenderer>().flipY = true;
-    //    Destroy(lowerRight[182]);
-    //    lowerRight[182] = Instantiate(MapGameObjects[4], new Vector3(0, -1), Quaternion.identity);
-    //    lowerRight[182].transform.parent = map.transform;
-    //    lowerRight[182].name = "MapLowerRight182";
-    //    foreach (int i in RotationLine)
-    //    {
-    //        if (i <= 196) lowerRight[i].transform.Rotate(0f, 0f, -90.0f);
-    //    }
-
-    //    foreach (int i in RotationA)
-    //    {
-    //        lowerRight[i].transform.Rotate(0f, 0f, 180.0f);
-    //    }
-
-    //    foreach (int i in RotationC)
-    //    {
-    //        lowerRight[i].transform.Rotate(0f, 0f, -90.0f);
-    //    }
-    //    foreach (int i in RotationB)
-    //    {
-    //        lowerRight[i].transform.Rotate(0f, 0f, 90f);
-    //    }
-    //}
 
 
 }
