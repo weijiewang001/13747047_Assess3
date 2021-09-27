@@ -6,11 +6,6 @@ using UnityEngine;
 
 public class LevelGenerator : MonoBehaviour
 {
-    private int i;
-    public static int Row = 15;
-    public static int Column = 14;
-    public static int x = -14;
-    public static int y = 15;
     public static int[,] levelMap = {
                         {1,2,2,2,2,2,2,2,2,2,2,2,2,7},
                         {2,5,5,5,5,5,5,5,5,5,5,5,5,4},
@@ -28,37 +23,30 @@ public class LevelGenerator : MonoBehaviour
                         {2,2,2,2,2,1,5,3,3,0,4,0,0,0},
                         {0,0,0,0,0,0,5,0,0,0,4,0,0,0},
                        };
-    [SerializeField]
-    private GameObject[] MapGameObjects = default;
-    private GameObject[] upperLeft = new GameObject[211];
+    public static int Row = 15;
+    public static int Column = 14;
+    public static int x;
+    public static int y;
+    private int i;
+    private int map1;
+    private int r;
+    private int c;
+    private int d;
+    private int count;
+    [SerializeField]private GameObject[] MapGO = default;
+    private GameObject[] Topleft = new GameObject[211];
     //private GameObject[] upperRight = new GameObject[211];
     //private GameObject[] lowerLeft = new GameObject[197];
     //private GameObject[] lowerRight = new GameObject[197];
 
-    private GameObject map = default;
-    private GameObject dot = default;
+    private GameObject map;
     private GameObject grid = default;
-    //private GameObject PowerPellet = default;
-    [SerializeField]
-    //private GameObject HeartPrefab = default;
-    private static int[] RotationLine = {
-        15,28,29,42,43,45,48,50,54,56,57,71,85,99,106,107,113,120,121,126,134,140,146,148,160,162,163,174,176,177,193,207};
-    private static int[] RotationA = { 1, 31, 36, 87, 92, 95, 149, 179 };//dont move in UpperLeft
-    private static int[] RotationB = { 34, 40, 90, 93, 112, 132, 138 };//nagetive90 in UL
-    private static int[] RotationC = { 59, 64, 70, 101, 109, 127, 135, 154, 190 };//positie90 in UL
-    private static int[] RotationD = { 62, 68, 104, 152, 188, 191 };//180 in UL
-    private static int Tjuc = 14;
-    //public RuntimeAnimatorController PowerPelletAnim;
+    
 
-    // Start is called before the first frame update
     void Awake()
     {
         map = GameObject.FindWithTag("Map");
-        
         grid = GameObject.FindWithTag("Grid");
-        Debug.Log(grid);
-        //dot = GameObject.FindWithTag("Dot");
-        //PowerPellet = GameObject.FindWithTag("PowerPellet");
         UpperLeft();
         //UpperRight();
         //LowerLeft();
@@ -69,55 +57,120 @@ public class LevelGenerator : MonoBehaviour
     private void Start()
     {
         grid.SetActive(false);
-        //Debug.Log(GameObject.FindWithTag("Grid"));
     }
 
-    
-    // Update is called once per frame
     private void UpperLeft()
     {
         i = 1;
         x = -14;
         y = 15;
 
-        for (int row = 0; row < Row; row++)
+        for (int newrow = 0; newrow < Row; newrow++)
         {
-            for (int column = 0; column < Column; column++)
+            for (int newcolumn = 0; newcolumn < Column; newcolumn++)
             {
-                upperLeft[i] = Instantiate(MapGameObjects[levelMap[row, column]], new Vector2(x + column, y - row), Quaternion.identity);
-                if (levelMap[row, column] == 5)
-                {
-                    //upperLeft[i].transform.parent = dot.transform;
-                }
-                else if (levelMap[row, column] == 6)
-                {
-                    //upperLeft[i].transform.parent = PowerPellet.transform;
-                }
-                else
-                {
-                    upperLeft[i].transform.parent = map.transform;
-                }
-                upperLeft[i].name = "MapUpperLeft" + i;
+                Topleft[i] = Instantiate(MapGO[levelMap[newrow, newcolumn]], new Vector2(x + newcolumn, y - newrow), Quaternion.identity);
+                Topleft[i].name = "MapTopLeft" + i;
+                Topleft[i].transform.parent = gameObject.transform;
                 i++;
+
             }
         }
-        foreach (int i in RotationLine)
+
+        for (int newrow = 0; newrow < Row; newrow++)
         {
-            upperLeft[i].transform.rotation = Quaternion.Euler(0f, 0f, 90.0f);
+            for (int newcolumn = 0; newcolumn < Column; newcolumn++)
+            {
+                if (levelMap[newrow, newcolumn] == 1)
+                {
+                    
+                    r = newrow + 1;
+                    c = newcolumn;
+
+                    while (levelMap[r, c] == 2)
+                    {
+                        d = r + c;
+                        Topleft[d].transform.rotation = Quaternion.Euler(0f, 0f, 90.0f);
+                    }
+
+                    //if (levelMap[r,c] == 2)
+                    //{
+                    //    d = r + c;
+                    //    Topleft[d].transform.rotation = Quaternion.Euler(0f, 0f, 90.0f);
+                    //}
+                    
+                    //if (levelMap[r, c] == 2)
+                    //{
+                    //    d = r + c;
+                    //    Topleft[d].transform.rotation = Quaternion.Euler(0f, 0f, 90.0f);
+                    //}
+                }
+            }
+
         }
-        foreach (int i in RotationB)
-        {
-            upperLeft[i].transform.rotation = Quaternion.Euler(0f, 0f, -90.0f);
-        }
-        foreach (int i in RotationC)
-        {
-            upperLeft[i].transform.rotation = Quaternion.Euler(0f, 0f, 90.0f);
-        }
-        foreach (int i in RotationD)
-        {
-            upperLeft[i].transform.rotation = Quaternion.Euler(0f, 0f, 180.0f);
-        }
-    }
+
+
+                //i = 1;
+                //for (int newrow = 0; newrow < Row; newrow++)
+                //{
+                //    for (int newcolumn = 0; newcolumn < Column; newcolumn++)
+                //    {
+                //        foreach (Transform child in transform)
+                //        {
+                //            if Topleft[i].GetComponent<MapGo>
+                //            if (child.name == "MapTopLeft1")
+                //            {
+
+                //                child.transform.rotation = Quaternion.Euler(0f, 0f, 90.0f);
+                //            }
+                //        }
+
+                //    }
+                //}
+
+
+                //i = 1;
+                //foreach (Transform child in transform)
+                //{
+
+                //    if (child.name == "MapTopLeft1")
+                //    {
+
+                //        child.transform.rotation = Quaternion.Euler(0f, 0f, 90.0f);
+                //    }
+                //}
+                ////if (levelMap[newrow, newcolumn] == 2)
+                //{
+                //    newrow += 1;
+                //    if (levelMap[newrow, newcolumn] == 2)
+                //    {
+                //        Topleft[newrow + newcolumn].transform.rotation = Quaternion.Euler(0f, 0f, 90.0f);
+                //        newrow += 1;
+                //    }
+                //}
+
+
+
+
+                //foreach (int i in NintyDegree)
+                //{
+
+
+                //    upperLeft[i].transform.rotation = Quaternion.Euler(0f, 0f, 90.0f);
+                //}
+                //foreach (int i in NegativeNintyDegree)
+                //{
+                //    upperLeft[i].transform.rotation = Quaternion.Euler(0f, 0f, -90.0f);
+                //}
+                //foreach (int i in HundredEightyDegree)
+                //{
+                //    upperLeft[i].transform.rotation = Quaternion.Euler(0f, 0f, 180.0f);
+                //}
+                //foreach (int i in NegativeNintyDegree)
+                //{
+                //    upperLeft[i].transform.rotation = Quaternion.Euler(0f, 0f, 270.0f);
+                //}
+            }
     //private void UpperRight()
     //{
     //    i = 1;
