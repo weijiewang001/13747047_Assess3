@@ -34,32 +34,32 @@ public class LevelGenerator : MonoBehaviour
     {
         map = GameObject.FindWithTag("Map");
         grid = GameObject.FindWithTag("Grid");
-        TopLeft();
+        //TopLeft();
 
 
     }
 
     private void Start()
     {
-        grid.SetActive(false);
+        //grid.SetActive(false);
     }
 
-    private void TopLeft()
-    {
-        x = -14;
-        y = 15;
-        i = 1;
-        for (int newrow = 0; newrow < Row; newrow++)
-        {
-            for (int newcolumn = 0; newcolumn < Column; newcolumn++)
-            {
-                Topleft[i] = Instantiate(MapGO[levelMap[newrow, newcolumn]], new Vector2(x + newcolumn, y - newrow), Quaternion.identity);
-                Topleft[i].name = "TopLeft" + i;
-                Topleft[i].transform.parent = gameObject.transform;
-                i++;
-            }
-        }
-    }
+    //private void TopLeft()
+    //{
+    //    x = -14;
+    //    y = 15;
+    //    i = 1;
+    //    for (int newrow = 0; newrow < Row; newrow++)
+    //    {
+    //        for (int newcolumn = 0; newcolumn < Column; newcolumn++)
+    //        {
+    //            Topleft[i] = Instantiate(MapGO[levelMap[newrow, newcolumn]], new Vector2(x + newcolumn, y - newrow), Quaternion.identity);
+    //            Topleft[i].name = "TopLeft" + i;
+    //            Topleft[i].transform.parent = gameObject.transform;
+    //            i++;
+    //        }
+    //    }
+    //}
 }
 
 

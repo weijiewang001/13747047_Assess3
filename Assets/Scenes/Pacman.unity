@@ -166,6 +166,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9894ba254d00c4c6181d84f4f7ed579a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  x: 0
+  y: 0
   MapGO:
   - {fileID: 212947128068028746, guid: 7c1b378bbd9944c1598e3c86b4f27efe, type: 3}
   - {fileID: 2396378842652631410, guid: 53adf1bcb89c744d1bd0400c094d8a54, type: 3}
@@ -2255,6 +2257,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9894ba254d00c4c6181d84f4f7ed579a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  x: 0
+  y: 0
   MapGO: []
 --- !u!1 &432399551
 GameObject:
@@ -2684,7 +2688,7 @@ GameObject:
   - component: {fileID: 1001887483}
   - component: {fileID: 1001887487}
   m_Layer: 0
-  m_Name: Pacman
+  m_Name: PacStudent
   m_TagString: Pacman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8703,7 +8707,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b59ce5216234d43ea93c4d32277dc447, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
