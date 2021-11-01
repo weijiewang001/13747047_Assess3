@@ -12,6 +12,7 @@ TagManager:
   - NormalStateBackgroundMusic
   - Grid
   - Map
+  - border
   layers:
   - Default
   - TransparentFX

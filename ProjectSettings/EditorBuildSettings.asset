@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pacman.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/DesignScene.unity
+    guid: d9da0af315cbe432e8be6b8192f18f4c
   m_configObjects: {}
