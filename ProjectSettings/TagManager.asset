@@ -12,7 +12,9 @@ TagManager:
   - NormalStateBackgroundMusic
   - Grid
   - Map
-  - border
+  - GhostScaredTimer
+  - GhostScaredTimerValue
+  - Border
   layers:
   - Default
   - TransparentFX

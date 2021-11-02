@@ -8,11 +8,11 @@ public class Border : MonoBehaviour
     private Image borderImage = default;
     public Sprite[] borderSprites = default;
     private float borderTimer = 0;
-    private float borderSpeed = 0.3f;
+    private float borderSpeed = 0.5f;
     int a = 0;
     void Start()
     {
-        borderImage = GameObject.FindGameObjectWithTag("border").GetComponent<Image>();
+        borderImage = GameObject.FindGameObjectWithTag("Border").GetComponent<Image>();
     }
 
     void Update()

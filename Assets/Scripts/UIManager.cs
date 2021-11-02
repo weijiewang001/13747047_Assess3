@@ -6,7 +6,12 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //private void Awake()
+    //{
+    //    GhostScaredTimer = GameObject.FindGameObjectWithTag("GhostScaredTimer");
+    //    GhostScaredTimer.SetActive(false);
+    //}
+
     void Start()
     {
         
@@ -26,9 +31,5 @@ public class UIManager : MonoBehaviour
     public void LoadSecondLevel()
     {
         SceneManager.LoadScene(2);
-    }
-    public void LoadMenuLevel()
-    {
-        SceneManager.LoadScene(0);
     }
 }
