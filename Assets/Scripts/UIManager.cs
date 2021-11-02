@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class UIManage : MonoBehaviour
+public class UIManager : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -18,11 +18,12 @@ public class UIManage : MonoBehaviour
         
     }
 
-    public void LoadLevel1()
+    public void LoadFirstLevel()
     {
         SceneManager.LoadScene(1);
+        //SceneManager.sceneLoaded += OnSceneLoaded;
     }
-    public void LoadLevel2()
+    public void LoadSecondLevel()
     {
         SceneManager.LoadScene(2);
     }
