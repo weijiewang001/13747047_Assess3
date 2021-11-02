@@ -6,18 +6,11 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    //private void Awake()
-    //{
-    //    GhostScaredTimer = GameObject.FindGameObjectWithTag("GhostScaredTimer");
-    //    GhostScaredTimer.SetActive(false);
-    //}
-
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
