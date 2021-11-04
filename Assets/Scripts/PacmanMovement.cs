@@ -3,13 +3,13 @@ using UnityEngine;
 public class PacmanMovement : MonoBehaviour
 {
     private GameObject pacman = default;
-    private Animator pacmanAnimator = default;
+    //private Animator pacmanAnimator = default;
     private float timer;
     //public Animator animatorController;
     public AudioSource noEatingMoveAudio;
-    float timeElapse;
-    float Period1 = 4f;
-    float Period2 = 2.5f;
+    //float timeElapse;
+    //float Period1 = 4f;
+    //float Period2 = 2.5f;
     
 
 
@@ -17,7 +17,7 @@ public class PacmanMovement : MonoBehaviour
     {
         pacman = GameObject.FindWithTag("Pacman"); 
         pacman.transform.position = new Vector3(-12.5f, 13.5f, 0f);
-        timeElapse = 0;
+        //timeElapse = 0;
 
     }
 

@@ -19,7 +19,6 @@ public class UIManager : MonoBehaviour
     public void LoadFirstLevel()
     {
         SceneManager.LoadScene(1);
-        //SceneManager.sceneLoaded += OnSceneLoaded;
     }
     public void LoadSecondLevel()
     {

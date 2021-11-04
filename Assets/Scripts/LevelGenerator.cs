@@ -18,13 +18,13 @@ public class LevelGenerator : MonoBehaviour
                         {2,2,2,2,2,1,5,3,3,0,4,0,0,0},
                         {0,0,0,0,0,0,5,0,0,0,4,0,0,0},
                        };
-    private int Row = 15;
-    private int Column = 14;
+    //private int Row = 15;
+    //private int Column = 14;
     public int x;
     public int y;
     private int i;
     private int count;
-    [SerializeField] private GameObject[] MapGO = default;
+    //[SerializeField] private GameObject[] MapGO = default;
     private GameObject[] Topleft = new GameObject[211];
     private GameObject map;
     private GameObject grid;
@@ -44,22 +44,7 @@ public class LevelGenerator : MonoBehaviour
         //grid.SetActive(false);
     }
 
-    //private void TopLeft()
-    //{
-    //    x = -14;
-    //    y = 15;
-    //    i = 1;
-    //    for (int newrow = 0; newrow < Row; newrow++)
-    //    {
-    //        for (int newcolumn = 0; newcolumn < Column; newcolumn++)
-    //        {
-    //            Topleft[i] = Instantiate(MapGO[levelMap[newrow, newcolumn]], new Vector2(x + newcolumn, y - newrow), Quaternion.identity);
-    //            Topleft[i].name = "TopLeft" + i;
-    //            Topleft[i].transform.parent = gameObject.transform;
-    //            i++;
-    //        }
-    //    }
-    //}
+    
 }
 
 
